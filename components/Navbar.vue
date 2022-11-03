@@ -7,28 +7,28 @@
             <li>
                 <nuxt-link
                     class="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/"
+                    to="/"
                     >Home</nuxt-link
                 >
             </li>
             <li>
                 <nuxt-link
                     class="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/projects.html"
+                    to="/projects"
                     >Project</nuxt-link
                 >
             </li>
             <li>
                 <nuxt-link
                     class="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/features.html"
+                    to="/features"
                     >Features</nuxt-link
                 >
             </li>
             <li>
                 <nuxt-link
                     class="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/story.html"
+                    to="/story"
                     >Success Stories</nuxt-link
                 >
             </li>
@@ -36,7 +36,7 @@
         <ul class="flex ml-auto items-center mt-2">
             <li>
                 <nuxt-link
-                    href="/register.html"
+                    to="/register"
                     class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full mr-4"
                 >
                     Sign Up
@@ -44,7 +44,7 @@
             </li>
             <li>
                 <nuxt-link
-                    href="/login.html"
+                    to="/login"
                     class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full"
                 >
                     My Account
