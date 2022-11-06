@@ -7,7 +7,7 @@
             <h2 class="font-medium mb-3 text-3xl text-center">
                 Oops! something wrong
             </h2>
-            <p class="text-center font-light" v-if="error.statusCode === 404">
+            <!-- <p class="text-center font-light" v-if="error.statusCode === 404">
                 The page that you requsted doesn’t
                 <br />
                 exist at this moment
@@ -22,14 +22,14 @@
                         Back to Home
                     </button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['error'],
+    // props: ['error'],
     layout: 'success',
 }
 </script>
